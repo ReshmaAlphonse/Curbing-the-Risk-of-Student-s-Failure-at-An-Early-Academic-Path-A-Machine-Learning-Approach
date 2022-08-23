@@ -11,7 +11,6 @@ as a three-category (Dropout, Enrolled, and Graduate) classification task with a
 bias in favor of one of the classes. Stratified sampling was performed due to imbalance in
 the classification target, and grid search 10-fold cross-validation hyperparameter tuning on
 Random Forest (RF), Support Vector Machine (SVM), and K-Nearest Neighbor (KNN) ML
-algorithms further boosted the prediction accuracy of the test samples. The results shows
-that the RF improved models (from the three parameters configuration) obtained accuracy of
-0.76, 0.75, and 0.75, while SVM and KNN resulted to 0.757 and 0.618, respectively. Overall,
-RF outperformed other algorithms with or without the parameters been tuned.
+algorithms further boosted the prediction accuracy of the test samples. The results shows that
+the improved models outperformed based on certain sampling techniques used to resolve the
+imbalance classification problem of the dataset.
